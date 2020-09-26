@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Content from './Components/Content';
+import Menu from './Components/Menu';
+import Navbar from './Components/Navbar';
+import second from "./images/second.jpg";
+import burger from "./images/burger.jpg";
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Content/>
+      <img src={second} className="firstimage"/>
+      <Menu/>
+      <div>  
+        <img src={burger} className="cardimage" alt=""/>
+      </div>
+      
+      
+      
+      
+      
     </div>
   );
 }
