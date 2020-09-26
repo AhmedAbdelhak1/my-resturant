@@ -13,8 +13,17 @@
   background-size: cover; 
   opacity: 1;
 }
-.cardimage{
-  
+.App>.allcard{
   display: flex;
-  flex-direction: row;
+  align-content: center;
+  overflow: auto;
+  
+}
+.cardimage{
+  margin-left: 1%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 250px;
 }
