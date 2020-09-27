@@ -13,6 +13,9 @@ import seven from "./images/seven.jpg";
 import eight from "./images/eight.jpg";
 import nine from "./images/nine.jpg";
 import Order from './Components/Order';
+import Aboutus from './Components/Aboutus';
+import chef from "./images/chef.jpg";
+import Footer from './Components/Footer';
 
 
 
@@ -22,7 +25,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Content/>
-      <img src={second} className="firstimage"/>
+      <img src={second} className="firstimage" alt=""/>
       <Menu/>
       <div className="allcard">  
         <img src={burger} className="cardimage" alt=""/>
@@ -35,6 +38,10 @@ function App() {
         <img src={nine} className="cardimage" alt=""/>
       </div>
       <Order/>
+      <Aboutus/>
+      <img src={chef} className="chefimage" alt=""/>
+      <Footer/>
+
 
       
       

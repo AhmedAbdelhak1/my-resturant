@@ -1,0 +1,27 @@
+  
+.footer{
+    background-color: #282c34;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.footer>h1{
+    margin-left: 5%;
+    text-align: start;
+    font-style: italic;
+    font-weight: 100;
+}
+.footer>h5{
+    text-align: end;
+    margin-right: 5%;
+    font-weight: 400;
+}
+.footer>a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5%;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 100;
+}
