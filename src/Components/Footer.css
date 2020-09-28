@@ -25,3 +25,7 @@
     font-size: 18px;
     font-weight: 100;
 }
+.footer>a:hover{
+    color: blue;
+    transition: .6s;
+}

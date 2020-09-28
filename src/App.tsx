@@ -24,9 +24,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Content/>
+      <section id="content"><Content/></section>
       <img src={second} className="firstimage" alt=""/>
-      <Menu/>
+      <section id="menu"><Menu/></section>
       <div className="allcard">  
         <img src={burger} className="cardimage" alt=""/>
         <img src={third} className="cardimage" alt=""/>
@@ -37,8 +37,8 @@ function App() {
         <img src={eight} className="cardimage" alt=""/>
         <img src={nine} className="cardimage" alt=""/>
       </div>
-      <Order/>
-      <Aboutus/>
+      <section id="order"><Order/></section>
+      <section id="aboutus"><Aboutus/></section>
       <img src={chef} className="chefimage" alt=""/>
       <Footer/>
 

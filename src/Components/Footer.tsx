@@ -6,9 +6,9 @@ function Footer() {
         
          <div className="footer">
             
-            <a href="#">Instagram</a>
+            <a href="insta">Instagram</a>
             <br/>
-            <a href="#">Facebook</a>
+            <a href="fcb">Facebook</a>
             
 
             <h5>Phone: +444 444 444 <br/>
